@@ -17,3 +17,4 @@ jobs:
       run: docker build -t soufiane001/cicd-pipeline .
     - name: Push to Dockerhub
       run: docker push soufiane001/cicd-pipeline:latest
+      
