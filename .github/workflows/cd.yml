@@ -9,7 +9,7 @@ jobs:
     runs-on: self-hosted
     steps:
     - name: Pull Docker image
-      run: podman docker pull soufiane001/cicd-pipeline:latest
+      run: podman pull docker.io soufiane001/cicd-pipeline:latest
     - name: Delete Old docker container
       run: podman docker rm -f cicd-pipeline-container || true
     - name: Run Docker Container
