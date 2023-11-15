@@ -13,4 +13,4 @@ RUN npm run build
 # Expose port 80 to the outside world
 EXPOSE 3000
 # Run the command to start the server
-CMD ["npm","start"]
+CMD ["npm","start"] 
